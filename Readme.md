@@ -52,3 +52,9 @@ request.AddFile("file", "/home/Запись-2.wav");
 RestResponse response = await client.ExecuteAsync(request);
 Console.WriteLine(response.Content);
 ```
+в ответе приходит json
+```json
+{
+    "text": "Привет, Алиса! Как дела?"
+}
+```
