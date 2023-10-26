@@ -6,7 +6,7 @@
 
 ### Сборка:
 ```shell
-docker build . -t osu/voiceai
+docker build voiceai -t osu/voiceai
 ```
 ### Запуск:
 ```shell
